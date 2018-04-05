@@ -1,0 +1,41 @@
+.batman{
+    text-align: center;
+    text-justify: inter-word;
+    color: yellow;
+    background-color: navy;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    margin: 0px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 0px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#id{
+    border-image: 0px;
+    padding: 0px ;
+    margin: 0px
+}
