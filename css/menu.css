@@ -11,8 +11,9 @@
     list-style:none;
 }
 
-#menu ul li { 
-    display: inline ; 
+.horizontal{
+    display: flex;
+    justify-content: space-between;
 }
 
 #menu ul li a {
@@ -22,6 +23,7 @@
     color: #EDEDED;
     text-decoration: none;
     border-bottom:3px solid #EDEDED;
+    text-decoration: none;
 }
 
 #menu ul li a:hover {
