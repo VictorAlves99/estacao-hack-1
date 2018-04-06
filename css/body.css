@@ -1,7 +1,7 @@
 
 #img_1{
     width: 600px;
-   height: 270px;
+    height: 270px;
     margin: 10px;
 }
 
@@ -56,4 +56,5 @@ footer {
 
 .conteudo_1{
     display: flex;
+    justify-content: space-around;
 }
