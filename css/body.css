@@ -67,11 +67,25 @@ body{
 .div{
     display: flex;
     justify-content: space-around;
-    padding-right: 6%;
-    padding-left: 6%;
+    padding-right: 5.5%;
+    padding-left: 5.5%;
 }
 
 .h3{
     text-align: center;
     font-size: 24px;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 24%;
+    padding-left: 18.5%;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 18.5%;
+    padding-left: 24.5%;
 }
