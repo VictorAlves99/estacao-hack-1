@@ -50,7 +50,7 @@
     border-bottom:3px solid rgb(255, 0, 179);
 }
 
-.conteudo_1{
+.conteudo{
     display: flex;
     justify-content: space-around;
 }
