@@ -1,32 +1,37 @@
 
-
-#div_img{
-    width:400px;
-    right: 400px;
-    border: 0px; 
-    margin: 0px;
-    padding: 0px;
+#img_1{
+    width: 600px;
+   height: 270px;
+    margin: 10px;
 }
 
-.img_capa{
-    width:400px;
-    right: 400px;
-    border: 0px; 
-    margin: 0px;
-    padding: 0px;
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 0px, 0px, 10px, 0px;
+    margin-inline-start: 0px;
+    margin-bottom: 0px;
 }
+
+.texto {
+    text-justify: distribute-all-lines;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+
 .texto_l {
     float: left;
     padding-right: 0%;
     margin-right: 60px
     
 }
+
 .texto_p {
     float: right;
     padding-left: 49%;
     margin: 0%
 }
-
 
 #rodape ul {
     float: left;
@@ -35,8 +40,6 @@
     background-color:rgb(255, 0, 0);
     list-style:none;
 }
-
-
 
 #rodape ul li { 
     padding: 2px 10px;
@@ -49,4 +52,8 @@
 
 footer {
     background-color: #000000;
+}
+
+.conteudo_1{
+    display: flex;
 }
