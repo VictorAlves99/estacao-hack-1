@@ -77,9 +77,9 @@
 }
 
 .layout_2 h4 {
-    padding-left:38%;
+    padding-left: 38%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px; 
+    font-size: 25px;
     font-style: oblique;
 }
 
@@ -107,8 +107,55 @@
     text-align: justify;
 }
 
+.layout_3 {
+    display: block;
+    height: 600px;
+    background-color:#81ecec;
+    align-content: center;
+}
 
+.layout_3 h4 {
+    padding-left: 110px;
+    padding-top: 60px;
+    color: initial;
+    font-family: inherit;
+    font-size: 20px;
+}
 
+.layout_3 p {
+    color: inherit;
+}
+
+.layout_3 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.layout_3 ul li {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.layout_3 ul li figure {
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+
+.layout_3 ul li h5 {
+    text-align: center;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.layout_3 ul li p {
+    width: 85%;
+    text-align: justify;
+    font-family: 10px;
+    font-family: inherit
+}
 
 .separador {
     height: 50px;
