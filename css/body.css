@@ -8,7 +8,7 @@
 
 .banner img {
     width: 1000px;
-    height: 500px;
+    height: 550px;
     filter: blur(0px) brightness(80%);
 }
 
@@ -34,18 +34,18 @@
     margin-left: 20px;
 }
 
-.conteudo_1 {
+.layout_1 {
     display: flex;
     justify-content: space-around;
 }
 
-.conteudo_1 img {
+.layout_1 img {
     border-radius: 50%;
     width: 440px;
     padding: 20px;
 }
 
-.conteudo_1 h4 {
+.layout_1 h4 {
     color: rgb(0, 0, 0);
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
@@ -53,7 +53,7 @@
     margin-top: 30px;
 }
 
-.conteudo_1 p {
+.layout_1 p {
     color: rgba(0, 0, 0);
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -62,6 +62,26 @@
     margin-top: 0px;
     text-align: justify;
 }
+
+
+.layout_2 {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    background-color: rgb(121, 101, 206);
+}
+
+.layout_2 figure {
+    
+}
+
+
+
+
+
+
+
+
 
 .separador {
     height: 50px;
