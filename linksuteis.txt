@@ -7,3 +7,5 @@ https://loripsum.net
 Lorem Picsum
 https://picsum.photos
 
+Google Fonts
+https://fonts.google.com/#QuickUsePlace:quickUse
