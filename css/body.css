@@ -1,5 +1,43 @@
+.banner {
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 
-#img_1{
+.banner figcaption {
+    position: absolute;
+    left: 350px;
+    top: 145px;
+    justify-content: center;
+}
+
+.banner figcaption h2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 8px;
+}
+
+.banner figcaption p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.banner img {
+    width: 1000px;
+    height: 500px;
+    filter: blur(0px) brightness(80%);
+    /* border-radius: 50px; */
+}
+
+/* ABAIXXO  */
+
+#img_1 {
     width: 600px;
     height: 270px;
     margin: 10px;
@@ -24,7 +62,6 @@
     float: left;
     padding-right: 0%;
     margin-right: 60px
-    
 }
 
 .texto_p {
@@ -35,55 +72,55 @@
 
 #rodape ul {
     float: left;
-    padding:0px;
-    margin:0px;
-    background-color:rgb(255, 0, 0);
-    list-style:none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 0, 0);
+    list-style: none;
 }
 
-#rodape ul li { 
+#rodape ul li {
     padding: 2px 10px;
     display: inline-block;
     background: color #ffd903;
     color: rgb(145, 255, 0);
     text-decoration: none;
-    border-bottom:3px solid rgb(255, 0, 179);
+    border-bottom: 3px solid rgb(255, 0, 179);
 }
 
-.conteudo{
+.conteudo {
     display: flex;
     justify-content: space-around;
 }
 
-body{
+body {
     background-image: url("img/meme-de-fundo.jpg");
 }
 
-.conteudo1{
+.conteudo1 {
     display: flex;
     justify-content: space-between;
 }
 
-.div{
+.div {
     display: flex;
     justify-content: space-around;
     padding-right: 5.5%;
     padding-left: 5.5%;
 }
 
-.h3{
+.h3 {
     text-align: center;
     font-size: 24px;
 }
 
-.div1{
+.div1 {
     display: flex;
     justify-content: space-around;
     padding-right: 24%;
     padding-left: 18.5%;
 }
 
-.div2{
+.div2 {
     display: flex;
     justify-content: space-around;
     padding-right: 18.5%;
