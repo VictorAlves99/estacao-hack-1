@@ -9,3 +9,9 @@ https://picsum.photos
 
 Google Fonts
 https://fonts.google.com/#QuickUsePlace:quickUse
+
+Icones 
+https://www.flaticon.com
+
+Cores 
+https://flatuicolors.com
