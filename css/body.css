@@ -63,22 +63,49 @@
     text-align: justify;
 }
 
-
 .layout_2 {
-    display: flex;
-    justify-content: space-around;
+    display: block;
     height: 600px;
-    background-color: rgb(121, 101, 206);
+    background-color: rgb(101, 206, 196);
+    align-content: center;
 }
 
 .layout_2 figure {
-    
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 44%;
 }
 
+.layout_2 h4 {
+    padding-left:38%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px; 
+    font-style: oblique;
+}
 
+.button {
+    margin-top: 90px;
+    padding-left: 42%;
+}
 
+.button a {
+    border: solid;
+    border-color: rgb(23, 40, 169);
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+    border-width: 1px;
+}
 
-
+#layout_2_p {
+    justify-content: center;
+    margin: 40px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    text-align: justify;
+}
 
 
 
@@ -86,86 +113,3 @@
 .separador {
     height: 50px;
 }
-
-/* ABAIXXO  */
-
-#img_1 {
-    width: 600px;
-    height: 270px;
-    margin: 10px;
-}
-
-/* .titulo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    margin: 0px, 0px, 10px, 0px;
-    margin-inline-start: 0px;
-    margin-bottom: 0px;
-} */
-
-/* .texto {
-    text-justify: distribute-all-lines;
-    text-align: justify;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 10px;
-} */
-
-/* .texto_l {
-    float: left;
-    padding-right: 0%;
-    margin-right: 60px
-}
-
-.texto_p {
-    float: right;
-    padding-left: 49%;
-    margin: 0%
-}
-
-#rodape ul {
-    float: left;
-    padding: 0px;
-    margin: 0px;
-    background-color: rgb(255, 0, 0);
-    list-style: none;
-}
-
-#rodape ul li {
-    padding: 2px 10px;
-    display: inline-block;
-    background: color #ffd903;
-    color: rgb(145, 255, 0);
-    text-decoration: none;
-    border-bottom: 3px solid rgb(255, 0, 179);
-}
-
-.conteudo1 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.div {
-    display: flex;
-    justify-content: space-around;
-    padding-right: 5.5%;
-    padding-left: 5.5%;
-}
-
-.h3 {
-    text-align: center;
-    font-size: 24px;
-}
-
-.div1 {
-    display: flex;
-    justify-content: space-around;
-    padding-right: 24%;
-    padding-left: 18.5%;
-}
-
-.div2 {
-    display: flex;
-    justify-content: space-around;
-    padding-right: 18.5%;
-    padding-left: 24.5%;
-} */
