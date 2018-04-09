@@ -13,6 +13,7 @@
 }
 
 .banner figcaption {
+    ruby-align: center;
     position: absolute;
     left: 500px;
     top: 145px;
@@ -65,27 +66,29 @@
 
 .layout_2 {
     display: block;
+    align-items: center;
+    justify-content: center;
     height: 600px;
     background-color: rgb(101, 206, 196);
     align-content: center;
 }
 
 .layout_2 figure {
-    justify-content: center;
+    text-align: center;
     padding-top: 50px;
-    padding-left: 44%;
 }
 
 .layout_2 h4 {
-    padding-left: 38%;
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     font-style: oblique;
 }
 
 .button {
-    margin-top: 90px;
-    padding-left: 42%;
+    text-align: center;
+     margin-top: 90px;
+
 }
 
 .button a {
@@ -109,13 +112,13 @@
 
 .layout_3 {
     display: block;
-    height: 600px;
+    height: 580px;
     background-color:#81ecec;
     align-content: center;
 }
 
 .layout_3 h4 {
-    padding-left: 110px;
+    text-align: center;
     padding-top: 60px;
     color: initial;
     font-family: inherit;
@@ -159,13 +162,14 @@
 
 .rodape {
     display: flex;
-    align-content:space-around;
     height: 300px;
     background: lightslategray;
 }
 
 .rodape ul{
     list-style: none;
+    align-content:space-around;
+    
 }
 
 .icon {
@@ -176,7 +180,7 @@
 }
 
 .icon img {
-        width: 20px;
+    width: 20px;
     height: 20px;
     margin: 0px;
     padding-right: 5px;
@@ -200,4 +204,13 @@
 
 .separador {
     height: 50px;
+}
+.separador p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align: center;
+}
+.separador hr {
+    height: 90%;
+    padding: 20px;
 }
