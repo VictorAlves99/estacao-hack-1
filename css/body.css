@@ -7,14 +7,14 @@
 }
 
 .banner img {
-    width: 1000px;
+    width: 1330px;
     height: 550px;
     filter: blur(0px) brightness(80%);
 }
 
 .banner figcaption {
     position: absolute;
-    left: 350px;
+    left: 500px;
     top: 145px;
     justify-content: center;
 }
@@ -41,7 +41,7 @@
 
 .layout_1 img {
     border-radius: 50%;
-    width: 440px;
+    width: 460px;
     padding: 20px;
 }
 
