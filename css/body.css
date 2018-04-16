@@ -7,7 +7,7 @@
 }
 
 .banner img {
-    width: 1330px;
+    width: 1366px;
     height: 550px;
     filter: blur(0px) brightness(80%);
 }
@@ -51,7 +51,7 @@
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 8px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .layout_1 p {
@@ -75,7 +75,7 @@
 
 .layout_2 figure {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .layout_2 h4 {
@@ -87,7 +87,7 @@
 
 .button {
     text-align: center;
-     margin-top: 90px;
+     margin-top: 70px;
 
 }
 
@@ -104,7 +104,7 @@
 #layout_2_p {
     justify-content: center;
     margin: 40px;
-    margin-top: 30px;
+    margin-top: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
     text-align: justify;

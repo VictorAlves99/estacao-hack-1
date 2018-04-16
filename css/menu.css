@@ -1,33 +1,52 @@
-#batman{
-    color: darkblue;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
+*{
+    margin: 0px;
 }
 
-#menu ul {
-    padding:0px;
-    margin:0px;
-    background-color:#333;
-    list-style:none;
-}
-
-.horizontal{
+header{
+    background-color: #0300ae;
+    height: 80px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    position: fixed;
 }
 
-#menu ul li a {
-    display: inline-block;
-    background: color #333;
-    color: #EDEDED;
-    text-decoration: none;
-    border-bottom:3px solid #EDEDED;
-    text-decoration: none;
-    padding: 7px;
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    color: bisque;
+    font-size: 20px;
+    padding-right: 10px;
 }
 
-#menu ul li a:hover {
-    background-color: #EDEDED;
-    color: #333;
-    border-bottom: 3px solid #0000ff;
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    color: bisque;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+p{
+    font-family: 'Do Hyeon', sans-serif;
+    padding-top: 0px;
+    text-align: center;
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+    padding-top: 16px;
+    padding-left: 10px;
+}
+
+a:hover{
+    background-color: white;
+    color: #000;
+    border-bottom: 3px solid #0000ff;    
 }
