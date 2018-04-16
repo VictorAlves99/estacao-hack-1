@@ -1,3 +1,11 @@
+#goldenmemes{
+    background-color: blue;
+}
+
+#h4{
+    color: gold;
+}
+
 .banner {
     display: inline-block;
     position: relative;
@@ -214,4 +222,9 @@
 .separador hr {
     height: 90%;
     padding: 20px;
+}
+
+section ul li figure img{
+    height: 50%;
+    width: 50%;
 }
